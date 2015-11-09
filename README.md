@@ -6,8 +6,13 @@ _Users can order a custom website built and buy it._
 
 ## Setup
 
-admin
+* database backup can be found:
+sites/db_backup
+
+* db admin :
+webshop_admin
 pw: pizzacats
+
 
 ## Technologies Used
 _Drupal 7.41_
