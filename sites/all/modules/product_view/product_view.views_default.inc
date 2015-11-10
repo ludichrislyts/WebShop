@@ -39,7 +39,6 @@ function product_view_views_default_views() {
   $handler->display->display_options['fields']['product_id']['table'] = 'commerce_product';
   $handler->display->display_options['fields']['product_id']['field'] = 'product_id';
   $handler->display->display_options['fields']['product_id']['label'] = '';
-  $handler->display->display_options['fields']['product_id']['exclude'] = TRUE;
   $handler->display->display_options['fields']['product_id']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['product_id']['link_to_product'] = 0;
   /* Field: Commerce Product: Title */
@@ -49,16 +48,14 @@ function product_view_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['link_to_product'] = 0;
-  /* Field: Commerce Product: Product Img */
-  $handler->display->display_options['fields']['field_product_img']['id'] = 'field_product_img';
-  $handler->display->display_options['fields']['field_product_img']['table'] = 'field_data_field_product_img';
-  $handler->display->display_options['fields']['field_product_img']['field'] = 'field_product_img';
-  $handler->display->display_options['fields']['field_product_img']['label'] = '';
-  $handler->display->display_options['fields']['field_product_img']['alter']['make_link'] = TRUE;
-  $handler->display->display_options['fields']['field_product_img']['alter']['path'] = 'product-view/[product_id]';
-  $handler->display->display_options['fields']['field_product_img']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_product_img']['click_sort_column'] = 'fid';
-  $handler->display->display_options['fields']['field_product_img']['settings'] = array(
+  /* Field: Commerce Product: Image */
+  $handler->display->display_options['fields']['field_product_image']['id'] = 'field_product_image';
+  $handler->display->display_options['fields']['field_product_image']['table'] = 'field_data_field_product_image';
+  $handler->display->display_options['fields']['field_product_image']['field'] = 'field_product_image';
+  $handler->display->display_options['fields']['field_product_image']['label'] = '';
+  $handler->display->display_options['fields']['field_product_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_product_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_product_image']['settings'] = array(
     'image_style' => 'medium',
     'image_link' => '',
   );
@@ -70,11 +67,6 @@ function product_view_views_default_views() {
   $handler->display->display_options['fields']['commerce_price']['settings'] = array(
     'calculation' => '0',
   );
-  /* Field: Commerce Product: Product Description */
-  $handler->display->display_options['fields']['field_product_description']['id'] = 'field_product_description';
-  $handler->display->display_options['fields']['field_product_description']['table'] = 'field_data_field_product_description';
-  $handler->display->display_options['fields']['field_product_description']['field'] = 'field_product_description';
-  $handler->display->display_options['fields']['field_product_description']['label'] = 'Included in this package:';
   /* Contextual filter: Commerce Product: Product ID */
   $handler->display->display_options['arguments']['product_id']['id'] = 'product_id';
   $handler->display->display_options['arguments']['product_id']['table'] = 'commerce_product';
