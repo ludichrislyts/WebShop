@@ -1,0 +1,104 @@
+array(
+  (object) array(
+      'vid' => '19',
+      'uid' => '1',
+      'title' => 'Page to hold ajax wrapper block',
+      'log' => '',
+      'status' => '1',
+      'comment' => '1',
+      'promote' => '0',
+      'sticky' => '0',
+      'vuuid' => '0323e154-5847-48fb-b0a2-089e8d1362b1',
+      'nid' => '19',
+      'type' => 'page',
+      'language' => 'und',
+      'created' => '1447199631',
+      'changed' => '1447199631',
+      'tnid' => '0',
+      'translate' => '0',
+      'uuid' => 'e3898afa-ba2f-4ad3-928b-e0bd53c7c27d',
+      'revision_timestamp' => '1447199631',
+      'revision_uid' => '1',
+      'body' => array(
+        'und' => array(
+          array(
+            'value' => '<div id="block-wrapper"></div>',
+            'summary' => '',
+            'format' => 'full_html',
+            'safe_value' => "<div id=\"block-wrapper\"></div>\n",
+            'safe_summary' => '',
+          ),
+        ),
+      ),
+      'rdf_mapping' => array(
+        'rdftype' => array(
+          'foaf:Document',
+        ),
+        'title' => array(
+          'predicates' => array(
+            'dc:title',
+          ),
+        ),
+        'created' => array(
+          'predicates' => array(
+            'dc:date',
+            'dc:created',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+        'changed' => array(
+          'predicates' => array(
+            'dc:modified',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+        'body' => array(
+          'predicates' => array(
+            'content:encoded',
+          ),
+        ),
+        'uid' => array(
+          'predicates' => array(
+            'sioc:has_creator',
+          ),
+          'type' => 'rel',
+        ),
+        'name' => array(
+          'predicates' => array(
+            'foaf:name',
+          ),
+        ),
+        'comment_count' => array(
+          'predicates' => array(
+            'sioc:num_replies',
+          ),
+          'datatype' => 'xsd:integer',
+        ),
+        'last_activity' => array(
+          'predicates' => array(
+            'sioc:last_activity_date',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+      ),
+      'cid' => '0',
+      'last_comment_timestamp' => '1447199631',
+      'last_comment_name' => NULL,
+      'last_comment_uid' => '1',
+      'comment_count' => '0',
+      'name' => 'admin',
+      'picture' => '0',
+      'data' => 'b:0;',
+      'path' => array(
+        'pid' => '4',
+        'source' => 'node/19',
+        'alias' => 'block_wrapper',
+        'language' => 'und',
+      ),
+      'menu' => NULL,
+      'node_export_drupal_version' => '7',
+    ),
+)
