@@ -134,12 +134,24 @@ function product_pages_field_default_field_instances() {
     'deleted' => 0,
     'description' => 'What are the highlights of kitty web?',
     'display' => array(
+      'compare_page' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
         'weight' => 4,
+      ),
+      'line_item' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'node_teaser' => array(
         'label' => 'above',
@@ -173,6 +185,12 @@ function product_pages_field_default_field_instances() {
     'deleted' => 0,
     'description' => '',
     'display' => array(
+      'compare_page' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'default' => array(
         'label' => 'above',
         'module' => 'image',
@@ -182,6 +200,12 @@ function product_pages_field_default_field_instances() {
         ),
         'type' => 'image',
         'weight' => 5,
+      ),
+      'line_item' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'node_teaser' => array(
         'label' => 'above',

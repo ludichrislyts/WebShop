@@ -213,15 +213,15 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'group_test',
-      'username' => 'group_admin',
-      'password' => 'admin',
-      'host' => 'localhost',
-      'port' => '',
+      'database' => 'epic_web_shop',
+      'username' => 'webshop_admin',
+      'password' => 'pizzacats',
+      'host' => '127.0.0.1',
+      'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',
     ),

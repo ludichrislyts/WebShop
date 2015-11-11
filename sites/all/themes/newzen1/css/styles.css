@@ -43,7 +43,14 @@ body {
   left: 0;
   right: 0;
 }
+/*Chris CSS for possible front page content*/
+.container{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
 
+}
 .nav {
   background-color: #102542;
   width: 100%;
