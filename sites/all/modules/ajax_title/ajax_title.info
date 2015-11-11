@@ -1,0 +1,5 @@
+name = Ajax Title
+description = Display Nodes From Title Clicks
+package = Custom Ajax
+core = 7.x
+files[] = ajax_title.module
