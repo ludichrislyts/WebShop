@@ -1,0 +1,14 @@
+name = Product View
+description = a view to display a single product
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = commerce_product
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[user_permission][] = view any commerce_product entity
+features[views_view][] = product_view
+project path = sites/all/modules/features/custom
