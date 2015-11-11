@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Product Comparision feature.
+ */
+
+include_once 'product_comparision.features.inc';

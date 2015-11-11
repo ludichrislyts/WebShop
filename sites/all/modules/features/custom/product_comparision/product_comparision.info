@@ -1,0 +1,16 @@
+name = Product Comparision
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = commerce_express_checkout
+dependencies[] = commerce_product_reference
+dependencies[] = features
+dependencies[] = inline_entity_form
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_product
+features[field_instance][] = node-product_display_2-body
+features[field_instance][] = node-product_display_2-field_product
+features[node][] = product_display_2
+project path = sites/all/modules/features/custom
