@@ -43,6 +43,10 @@ body {
   right: 0;
 }
 
+.node-readmore, .node-title {
+  display: none;
+}
+
 .nav {
   background-color: #102542;
   width: 100%;
